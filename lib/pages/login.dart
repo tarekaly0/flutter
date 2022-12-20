@@ -48,6 +48,7 @@ class Login extends StatelessWidget {
                       style: TextStyle(fontSize: 20))
                 ],
               ),
+              TextButton(onPressed: onPressed, child: child)
             ]),
           ),
         ),
