@@ -27,14 +27,17 @@ class Login extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {},
-                style: ButtonStyle (
-                      backgroundColor: MaterialStateProperty.all(BTNgreen),
-                padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8))),
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(BTNgreen),
+                  padding: MaterialStateProperty.all(EdgeInsets.all(12)),
+                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8))),
+                ),
+                child: Text(
+                  "sgin in",
+                  style: TextStyle(fontSize: 19),
+                ),
               ),
-              ),
-            ),
             ]),
           ),
         ),
