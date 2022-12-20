@@ -17,6 +17,11 @@ class Login extends StatelessWidget {
                 const SizedBox(
                   height: 35,
                 ),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  obscureText: false,
+                  decoration: dico.copywith(hinttext: "Entar your email"),
+                )
               ],
             ),
           ),
