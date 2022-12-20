@@ -40,13 +40,14 @@ class Login extends StatelessWidget {
               ),
               const SizedBox(
                 height: 30,
-              )
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Do not have an account ?" ,style: TextStyle(fontSize: 20),)
+                  Text("Do not have an account? ",
+                      style: TextStyle(fontSize: 20))
                 ],
-              )
+              ),
             ]),
           ),
         ),
