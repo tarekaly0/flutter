@@ -55,12 +55,12 @@ class Login extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => const Register()),
                   );
                 },
-                child: Text("sgin up"),
-              )
-            ]),
+                child: Text("sgin up"
+                style: TextStyle(color:  Colors.black, fontSize: 20)),
+                ),
+               ] ),
+              )),
           ),
-        ),
-      ),
-    );
+        );
   }
 }
