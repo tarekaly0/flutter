@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/share/constant.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -20,7 +21,8 @@ class Login extends StatelessWidget {
                 TextField(
                   keyboardType: TextInputType.emailAddress,
                   obscureText: false,
-                  decoration: dico.copywith(hinttext: "Entar your email"),
+                  decoration: dico.copyWith(hintText: "Entar your email"
+                  )),
                 )
               ],
             ),
