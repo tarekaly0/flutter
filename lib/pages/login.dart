@@ -6,7 +6,9 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(),
+      child: Scaffold(
+        backgroundColor: Color.fromARGB(255, 212, 206, 208),
+      ),
     );
   }
 }
