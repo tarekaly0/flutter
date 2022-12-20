@@ -38,6 +38,9 @@ class Login extends StatelessWidget {
                   style: TextStyle(fontSize: 19),
                 ),
               ),
+              const SizedBox(
+                height: 30,
+              )
             ]),
           ),
         ),
