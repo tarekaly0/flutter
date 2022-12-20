@@ -48,12 +48,15 @@ class Login extends StatelessWidget {
                       style: TextStyle(fontSize: 20))
                 ],
               ),
-              TextButton(onPressed: () {
-                navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Register()),
-                );
-              })
+              TextButton(
+                onPressed: () {
+                  navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Register()),
+                  );
+                },
+                child: Text("sgin up"),
+              )
             ]),
           ),
         ),
