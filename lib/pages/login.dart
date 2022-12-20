@@ -12,20 +12,19 @@ class Login extends StatelessWidget {
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const SizedBox(
-                  height: 35,
-                ),
-                TextField(
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              const SizedBox(
+                height: 35,
+              ),
+              TextField(
                   keyboardType: TextInputType.emailAddress,
                   obscureText: false,
-                  decoration: dico.copyWith(hintText: "Entar your email"
-                  )),
-                )
-              ],
-            ),
+                  decoration: dico.copyWith(hintText: "Entar your email")),
+              const SizedBox(
+                height: 30,
+              ),
+            ]),
           ),
         ),
       ),
