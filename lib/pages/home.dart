@@ -2,6 +2,7 @@ import 'dart:html';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application/share/appbar.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -116,7 +117,10 @@ class Home extends StatelessWidget {
       ],
     ),
   ),
+  appBar: AppBar(actions: [PROandPRI()],
   
+  ),
+
         );
       },
     ;
