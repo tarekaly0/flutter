@@ -16,4 +16,8 @@ class Prov with ChangeNotifier {
     price -= pro.price.round();
     notifyListeners();
   }
+
+  get itemCount {
+    return selcectedprodict.length;
+  }
 }
