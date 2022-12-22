@@ -66,7 +66,10 @@ class Home extends StatelessWidget {
                   currentAccountPictureSize: Size.square(80),
                   currentAccountPicture: CircleAvatar(
                       radius: 55,
-                      
+                      backgroundImage: AssetImage(
+                        "assets/img/123.jpg")),
+                      ),
+
             )
           ],
         )
