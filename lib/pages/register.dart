@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application/share/colors.dart';
 import 'package:flutter_application/share/constant.dart';
@@ -32,7 +34,11 @@ class Register extends StatelessWidget {
               shape: MaterialStateProperty.all(RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8)
               )),
-              
+            ),
+            child: Text(
+              "Register",
+              style: TextStyle(fontSize: 19),
+            ), 
 
             ) )  
           ],)) ,
