@@ -1,4 +1,5 @@
 import 'dart:html';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,10 @@ class PROandPRI extends StatelessWidget {
           positioned(
             bottom: 21,
             child: container(
-              child: Text(data)
+              child: Text("${classInstancee.itemscount}",
+              style: TextStyle(fontSize: 16, color: Color.fromARGB(255, 0, 0, 0)),
+              ),
+              )
             )
           )
         ]
