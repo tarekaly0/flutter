@@ -77,6 +77,11 @@ class _DetailsState extends State<Details> {
               Text( "offers you one of the best products for the bed that adds to your home a special special corner. Arikaty is the best manufacturer of magic corner bed in a simple modern unique shape, and the corner bed is ideal for people who want to be flexible, and the materials in the seats are distinguished Anatomical features. Designed for teens to share their moments of happiness with a relaxed touch. An excellent corner from Arikaty is perfect for you if you're watching T.V, playing video games or studying and being perfect in a restful sleep.", style: TextStyle(fontSize: 16),
               maxLines: ismore ?3 : null,
               overflow: TextOverflow.fade,),
+              TextButton(onPressed: (){
+                setState(() {
+                  ismore = !ismore;
+                });
+              },)
 
               
             )
