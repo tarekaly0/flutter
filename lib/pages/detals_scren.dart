@@ -81,7 +81,11 @@ class _DetailsState extends State<Details> {
                 setState(() {
                   ismore = !ismore;
                 });
-              },)
+              },
+              child: Text(
+                ismore ? "show more" : "show less",
+              ),
+              )
 
               
             )
