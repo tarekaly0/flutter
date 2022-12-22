@@ -13,4 +13,9 @@ class Details extends StatefulWidget {
 
 class _DetailsState extends State<Details> {
   bool ismore = true;
+  @override
+  Widget  build(Buildcontext){
+    return Scaffold(appBar: AppBar(actions: [PROandPRI()],
+    ),)
+  }
 }
