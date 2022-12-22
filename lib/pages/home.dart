@@ -61,7 +61,12 @@ class Home extends StatelessWidget {
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("assets/img/")
+                  image: AssetImage("assets/img/Untitled.png"),
+                  fit: BoxFit.cover),
+                  currentAccountPictureSize: Size.square(80),
+                  currentAccountPicture: CircleAvatar(
+                      radius: 55,
+                      
             )
           ],
         )
