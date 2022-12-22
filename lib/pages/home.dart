@@ -102,7 +102,10 @@ class Home extends StatelessWidget {
               title: Text("About"),
               leading: Icon(Icons.add_shopping_cart),
               onTap: (){}),
-                 
+               ListTile(
+              title: Text("Logout"),
+              leading: Icon(Icons.add_shopping_cart),
+              onTap: (){}),  
           ],
         )
       ],
