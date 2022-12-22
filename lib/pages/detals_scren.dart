@@ -39,6 +39,10 @@ class _DetailsState extends State<Details> {
                 borderRadius: BorderRadius.circular(4),
               )),
               SizedBox(width: 9,),
+              Row(children: [
+                Icon(Icons.star,size: 26,color: Color.fromARGB(255, 255, 191, 0),
+                ),
+              ],)
               ),
 
               
