@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application/pages/login.dart';
 import 'package:flutter_application/share/colors.dart';
 import 'package:flutter_application/share/constant.dart';
 
@@ -50,7 +51,13 @@ class Register extends StatelessWidget {
                style: TextStyle(fontSize: 20))
             ],
            ),
-           
+           TextButton(onPressed: (){
+            Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Login()),
+                  );
+                },
+           , child: child)
 
           
 
