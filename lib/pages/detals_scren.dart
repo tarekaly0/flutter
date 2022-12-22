@@ -20,7 +20,9 @@ class _DetailsState extends State<Details> {
     title: Text("Details screen"),
     ),
     body: SingleChildScrollView(child: Column(
-      children: [],
+      children: [
+        Image.asset(widget.product.imgpath)
+      ],
     )),
     )
   }
