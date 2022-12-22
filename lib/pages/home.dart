@@ -1,4 +1,5 @@
 import 'dart:html';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -69,7 +70,10 @@ class Home extends StatelessWidget {
                       backgroundImage: AssetImage(
                         "assets/img/123.jpg")),
                         accountEmail :Text("Tarek@yahoo.com")
-                        accountName: Text("Tarek Mesho")
+                        accountName: Text("Tarek Mesho"
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255),
+                        ),
+                        )
                       ),
 
             )
