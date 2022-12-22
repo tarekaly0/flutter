@@ -10,4 +10,10 @@ class Prov with ChangeNotifier {
     price += pro.price.round();
     notifyListeners();
   }
+
+  delete(Item pro) {
+    selcectedprodict.remove(pro);
+    price -= pro.price.round();
+    notifyListeners();
+  }
 }
