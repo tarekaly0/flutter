@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/share/colors.dart';
+import 'package:flutter_application/share/constant.dart';
 
 class Register extends StatelessWidget {
   const Register({super.key});
@@ -15,7 +16,13 @@ class Register extends StatelessWidget {
           const SizedBox(
             height: 35,
           ),
-            
+          TextField(
+            keyboardType: TextInputType.emailAddress,
+            obscureText: false,
+            decoration: dico.copyWith(
+              hintText: "Entar your email",
+            ),
+          )  
           ],)) ,
           )),
       ))
