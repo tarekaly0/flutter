@@ -23,8 +23,8 @@ class PROandPRI extends StatelessWidget {
                 ),
                 padding: EdgeInsets.all(5),
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(211, 164, 255, 193),
-                ),
+                    color: Color.fromARGB(211, 164, 255, 193),
+                    shape: BoxShape.circle),
               )),
         ],
       ),
