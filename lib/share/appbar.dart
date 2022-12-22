@@ -30,16 +30,16 @@ class PROandPRI extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: IconButton(
-              onPressed: (){
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    
-                  )
-                )
-              },
-            ),
-          )
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => check(),
+                    ),
+                  );
+                },
+                icon: Icon(Icons.add_shopping_cart)),
+          ),
         ],
       ),
       Padding(
