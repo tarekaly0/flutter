@@ -17,7 +17,16 @@ class Home extends StatelessWidget {
               mainAxisSpacing: 15.0,
               childAspectRatio: 2 / 3),
           itemBuilder: (BuildContext context, int index) {
-            return GestureDetector()
-            ));
+            return GestureDetector(
+              onTap: (){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Details(product:items[index])),
+    
+                 );
+              },
+            )
+            )
+            );
   }
 }
