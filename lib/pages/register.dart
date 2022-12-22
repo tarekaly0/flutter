@@ -46,9 +46,11 @@ class Register extends StatelessWidget {
            Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Do not have an account ? "), style
+               Text("Do not have an account ? ", 
+               style: TextStyle(fontSize: 20))
             ],
-           )
+           ),
+           
 
           
 
