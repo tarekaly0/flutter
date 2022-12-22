@@ -16,6 +16,7 @@ class _DetailsState extends State<Details> {
   @override
   Widget  build(Buildcontext){
     return Scaffold(appBar: AppBar(actions: [PROandPRI()],
+    backgroundColor: appbarGreen,
     ),)
   }
 }
