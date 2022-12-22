@@ -68,6 +68,8 @@ class Home extends StatelessWidget {
                       radius: 55,
                       backgroundImage: AssetImage(
                         "assets/img/123.jpg")),
+                        accountEmail :Text("Tarek@yahoo.com")
+                        accountName: Text("Tarek Mesho")
                       ),
 
             )
