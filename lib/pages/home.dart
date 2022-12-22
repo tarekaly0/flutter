@@ -79,7 +79,15 @@ class Home extends StatelessWidget {
             ),
             ListTile(
               title: Text("Home"),
-              leading: Icon,
+              leading: Icon(Icons.home),
+              onTap: (){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    
+                  )
+                )
+              },
             )
           ],
         )
