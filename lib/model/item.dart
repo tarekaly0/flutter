@@ -4,3 +4,7 @@ class Item {
   String name;
   Item({required this.imgpath, required this.name, required this.price});
 }
+
+final List<Item> items = [
+  
+]
