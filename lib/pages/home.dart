@@ -109,7 +109,8 @@ class Home extends StatelessWidget {
           ],
         ),
         Container(
-          margin: ,
+          margin:EdgeInsets.only(bottom: 12),
+          child: Text("Developed by Tarek © 2022"),
         )
       ],
     ),
