@@ -38,9 +38,16 @@ class Register extends StatelessWidget {
             child: Text(
               "Register",
               style: TextStyle(fontSize: 19),
-            ), 
+            ),
+           ),
+           const SizedBox(
+            height: 30,
+           ),
+           
 
-            ) )  
+          
+
+              
           ],)) ,
           )),
       ))
