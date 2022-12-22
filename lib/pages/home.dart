@@ -44,11 +44,17 @@ class Home extends StatelessWidget {
                        },
                        icon: Icon(Icons.add)),
                       leading: Text("\$12.99"),
+                      title: Text(
+                        ""
+                      ),
                        ),
                 ),
 
-          )
-        ),
+          );
+  }),
+  drawer: Drawer(
+    
+  ),
         );
       },
     ;
