@@ -34,6 +34,9 @@ class _DetailsState extends State<Details> {
             Container(
               padding: EdgeInsets.all(4),
               child: Text("New", style: TextStyle(fontSize: 15),),
+              decoration: BoxDecoration(
+                color: Color.fromARGB(255, 255, 129, 120),
+              ),
 
               
             )
