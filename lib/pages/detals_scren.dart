@@ -1,3 +1,6 @@
+import 'dart:html';
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application/model/item.dart';
 import 'package:flutter_application/share/appbar.dart';
@@ -30,6 +33,9 @@ class _DetailsState extends State<Details> {
           children: [
             Container(
               padding: EdgeInsets.all(4),
+              child: Text("New", style: TextStyle(fontSize: 15),),
+
+              
             )
           ],
 
