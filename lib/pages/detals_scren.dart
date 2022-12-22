@@ -52,6 +52,13 @@ class _DetailsState extends State<Details> {
                 ),
               ],
               ),
+              SizedBox(width: 61,),
+              Row(children: [
+                Icon(Icons.edit_location,
+                size: 26,
+                color: Color.fromARGB(168, 3, 65, 27),
+                ),
+              ],)
               ),
 
               
