@@ -78,7 +78,8 @@ class Home extends StatelessWidget {
 
             ),
             ListTile(
-              
+              title: Text("Home"),
+              leading: Icon,
             )
           ],
         )
