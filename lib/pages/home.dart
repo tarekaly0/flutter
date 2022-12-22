@@ -35,11 +35,19 @@ class Home extends StatelessWidget {
                         borderRadius: BorderRadius.circular(55),
                         child: Image.asset(items[index].imgpath)),
                     ),
+                ]),
+                footer: GridTileBar(
+                  trailing: IconButton (
+                      color: Color.fromARGB(255, 62, 94, 70),
+                      onPressed: () { 
+                        classInsta
+                       },),
+                ),
 
           )
-        ]),
+        ),
         );
       },
-    ));
+    ;
   }
-}
+
