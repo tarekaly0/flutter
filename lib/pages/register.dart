@@ -21,8 +21,11 @@ class Register extends StatelessWidget {
             obscureText: false,
             decoration: dico.copyWith(
               hintText: "Entar your email",
+            )), 
+            const SizedBox(
+              height: 30,
             ),
-          )  
+             
           ],)) ,
           )),
       ))
