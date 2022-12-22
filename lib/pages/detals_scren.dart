@@ -8,4 +8,9 @@ class Details extends StatefulWidget {
   Item product;
   Details({required this.product});
   @override
+  State<Details> createState() => _DetailsState();
+}
+
+class _DetailsState extends State<Details> {
+  bool ismore = true;
 }
