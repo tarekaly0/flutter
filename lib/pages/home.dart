@@ -40,8 +40,10 @@ class Home extends StatelessWidget {
                   trailing: IconButton (
                       color: Color.fromARGB(255, 62, 94, 70),
                       onPressed: () { 
-                        classInsta
-                       },),
+                        classInstancee.add(items[index]);
+                       },
+                       icon: Icon(Icons.add)),
+                       ),
                 ),
 
           )
