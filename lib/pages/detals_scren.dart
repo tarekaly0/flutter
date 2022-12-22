@@ -61,9 +61,12 @@ class _DetailsState extends State<Details> {
                 SizedBox(width: 3,),
                 Text("TArek Shop",
                 style: TextStyle(fontSize: 19),),
-                
-              ],)
+              ],
+              )
+          ],
               ),
+              SizedBox(height: 13,),
+              SizedBox(width: double.infinity,)
 
               
             )
