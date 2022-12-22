@@ -27,7 +27,9 @@ class Register extends StatelessWidget {
             ),
            ElevatedButton(onPressed: () {} ,
             style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(BTNgreen),
               
+
             ) )  
           ],)) ,
           )),
