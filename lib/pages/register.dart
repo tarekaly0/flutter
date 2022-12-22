@@ -1,3 +1,4 @@
+import 'dart:html';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -57,13 +58,12 @@ class Register extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => const Login()),
                   );
                 },
-           , child: child)
-
-          
-
-              
-          ],)) ,
+                child: Text("sgin in",
+                style:TextStyle(color:BTNgreen, fontSize: 20)),
+          ),     
+          ]),
+          ) ,
           )),
-      ))
+      
   }
 }
