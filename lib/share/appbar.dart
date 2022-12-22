@@ -21,6 +21,8 @@ class PROandPRI extends StatelessWidget {
               ),
               padding(
                 padding:const EdgeInsets.only(right:10),
+                child: Text("\${classInstancee.price}",
+                style: )
               )
 
               )
