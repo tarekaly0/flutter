@@ -36,6 +36,9 @@ class _DetailsState extends State<Details> {
               child: Text("New", style: TextStyle(fontSize: 15),),
               decoration: BoxDecoration(
                 color: Color.fromARGB(255, 255, 129, 120),
+                borderRadius: BorderRadius.circular(4),
+              )),
+              SizedBox(width: 9,),
               ),
 
               
