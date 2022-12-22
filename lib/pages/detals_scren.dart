@@ -17,6 +17,8 @@ class _DetailsState extends State<Details> {
   Widget  build(Buildcontext){
     return Scaffold(appBar: AppBar(actions: [PROandPRI()],
     backgroundColor: appbarGreen,
-    ),)
+    title: Text("Details screen"),
+    ),
+    )
   }
 }
