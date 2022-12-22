@@ -58,7 +58,11 @@ class Home extends StatelessWidget {
       children: [
         Column(
           children: [
-            
+            UserAccountsDrawerHeader(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/img/")
+            )
           ],
         )
       ],
