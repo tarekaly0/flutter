@@ -107,6 +107,9 @@ class Home extends StatelessWidget {
               leading: Icon(Icons.add_shopping_cart),
               onTap: (){}),  
           ],
+        ),
+        Container(
+          margin: ,
         )
       ],
     ),
