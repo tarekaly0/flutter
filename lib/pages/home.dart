@@ -23,7 +23,18 @@ class Home extends StatelessWidget {
             MaterialPageRoute(
                 builder: (context) => Details(product: items[index])),
           );
-        });
+        },
+        child: GridTile(
+                child: Stack(children: [
+                  Positioned(
+                    bottom: -9,
+                    top: -2.5,
+                    right: 0,
+                    left: 0,
+                    
+          )
+        ]),
+        );
       },
     ));
   }
