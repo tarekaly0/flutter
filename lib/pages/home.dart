@@ -110,12 +110,13 @@ class Home extends StatelessWidget {
         ),
         Container(
           margin:EdgeInsets.only(bottom: 12),
-          child: Text("Developed by Tarek © 2022"),
+          child: Text("Developed by Tarek © 2022",
+              style: TextStyle(fontSize: 16)),
         )
       ],
     ),
-    
   ),
+  
         );
       },
     ;
