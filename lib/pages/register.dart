@@ -28,6 +28,7 @@ class Register extends StatelessWidget {
            ElevatedButton(onPressed: () {} ,
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(BTNgreen),
+              padding: MaterialStateProperty.all(EdgeInsets.all(12)),
               
 
             ) )  
