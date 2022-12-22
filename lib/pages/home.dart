@@ -43,6 +43,7 @@ class Home extends StatelessWidget {
                         classInstancee.add(items[index]);
                        },
                        icon: Icon(Icons.add)),
+                      leading: Text("\$12.99"),
                        ),
                 ),
 
