@@ -7,6 +7,17 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return scaffold();
+     return Scaffold(
+      body:GridView.builder(
+          padding: EdgeInsets.symmetric(horizontal: 15.0),
+          itemCount: items.length,
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              crossAxisSpacing: 15.0,
+              mainAxisSpacing: 15.0,
+              childAspectRatio: 2 / 3),
+          itemBuilder: (BuildContext context, int index) {
+            return GestureDetector()
+            ));
   }
 }
