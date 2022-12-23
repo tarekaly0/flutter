@@ -8,8 +8,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Text("home"),
+    return ChangeNotifierProvider(
+      create: (context) {
+        return ClassName();
+      },
+      child: MaterialApp(
+        home: Text("home"),
+      ),
     );
   }
 }
