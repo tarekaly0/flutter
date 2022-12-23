@@ -25,7 +25,7 @@ class Register extends StatelessWidget {
               height: 35,
             ),
             TextField(
-                keyboardType: TextInputType.emailAddress,
+                keyboardType: TextInputType.text,
                 obscureText: false,
                 decoration: dico.copyWith(
                   hintText: "Entar your email",
@@ -33,6 +33,12 @@ class Register extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
+            TextField(
+                keyboardType: TextInputType.emailAddress,
+                obscureText: false,
+                decoration: dico.copyWith(
+                  hintText: "Entar your email",
+                )),
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(
