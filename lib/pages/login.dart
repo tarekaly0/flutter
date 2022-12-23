@@ -31,6 +31,9 @@ class Login extends StatelessWidget {
                 decoration: dico.copyWith(
                   hintText: "Entar your password",
                 )),
+            const SizedBox(
+              height: 30,
+            ),
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(

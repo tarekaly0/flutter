@@ -39,6 +39,18 @@ class Register extends StatelessWidget {
                 decoration: dico.copyWith(
                   hintText: "Entar your email",
                 )),
+            const SizedBox(
+              height: 20,
+            ),
+            TextField(
+                keyboardType: TextInputType.text,
+                obscureText: true,
+                decoration: dico.copyWith(
+                  hintText: "Entar your password",
+                )),
+            const SizedBox(
+              height: 30,
+            ),
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(
