@@ -51,6 +51,11 @@ style: ButtonStyle(
   shape: MaterialStateProperty.all(RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(8)))
   ),
+  child: Text(
+    "pay ${classInstancee.price}",
+    style: TextStyle(fontSize: 19),
+    ),
+    
 
 ),
 )
