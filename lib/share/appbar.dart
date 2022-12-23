@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:/provider/provider.dart';
+import 'package:flutter_application/pages/checkout.dart';
 import 'package:flutter_application/provider/provider.dart';
 
 class PROandPRI extends StatelessWidget {
@@ -18,7 +19,7 @@ class PROandPRI extends StatelessWidget {
             bottom: 21,
             child: Container(
               child: Text(
-                "${classInstancee.itemscount}",
+                "${classInstancee.itemCount}",
                 style: TextStyle(
                     fontSize: 16, color: Color.fromARGB(255, 0, 0, 0)),
               ),
