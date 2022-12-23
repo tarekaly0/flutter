@@ -30,6 +30,13 @@ class check extends StatelessWidget {
             Text(classInstancee.selcectedprodict[index].name),
            subtitle Text(
             "$ {classInstancee.selcectedprodict[index].price} "),
+            leading: CircleAvatar(
+              backgroundImage: AssetImage(
+                classInstancee.selcectedprodict[index].imgpath),
+            ),
+            
+              ),
+            ),
            ) :
             )
           )
