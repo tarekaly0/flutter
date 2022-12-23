@@ -25,6 +25,12 @@ class Login extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
+            TextField(
+                keyboardType: TextInputType.text,
+                obscureText: true,
+                decoration: dico.copyWith(
+                  hintText: "Entar your password",
+                )),
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(
