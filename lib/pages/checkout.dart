@@ -34,7 +34,13 @@ class check extends StatelessWidget {
               backgroundImage: AssetImage(
                 classInstancee.selcectedprodict[index].imgpath),
             ),
+            trailing: IconButton(onPressed:
+            (){
+              classInstancee.delete(classInstancee.selcectedprodict[index]);
+
+            },
             
+            , icon: icon),
               ),
             ),
            ) :
