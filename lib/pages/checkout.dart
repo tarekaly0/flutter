@@ -19,7 +19,10 @@ class check extends StatelessWidget {
         actions: [PROandPRI()],
       ),
       body: Column(children: [
-        SingleChildScrollView(child: SizedBox(height: 600, ),)
+        SingleChildScrollView(child: SizedBox(height: 600,
+        child:  ListView.builder(padding: const EdgeInsets.all(8),
+        ),
+         ),)
       ]),
     )
   }
