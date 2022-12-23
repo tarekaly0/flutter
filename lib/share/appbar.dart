@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:/provider/provider.dart';
 import 'package:flutter_application/pages/checkout.dart';
 import 'package:flutter_application/provider/provider.dart';
+import 'package:provider/provider.dart';
 
 class PROandPRI extends StatelessWidget {
   const PROandPRI({super.key});
@@ -44,7 +44,7 @@ class PROandPRI extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.only(right: 10),
         child: Text(
-          "\${classInstancee.price}",
+          "\$ ${classInstancee.price}",
           style: TextStyle(fontSize: 20),
         ),
       ),
