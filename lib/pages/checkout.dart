@@ -19,45 +19,49 @@ class check extends StatelessWidget {
         title: Text("check out"),
         actions: [PROandPRI()],
       ),
-      body: Column(children: [
-        SingleChildScrollView(child: SizedBox(height: 600,
-        child:  ListView.builder(padding: const EdgeInsets.all(8),
-        itemCount: classInstancee.selcectedprodict.length,
-        itemBuilder: (BuildContext (context, int index)
-        {
-          return Card(
-            child: ListTile(
-            Text(classInstancee.selcectedprodict[index].name),
-           subtitle Text(
-            "$ {classInstancee.selcectedprodict[index].price} "),
-            leading: CircleAvatar(
-              backgroundImage: AssetImage(
-                classInstancee.selcectedprodict[index].imgpath),
+      body: Column(
+        children: [
+          SingleChildScrollView(
+            child: SizedBox(
+              height: 600,
+              child: ListView.builder(
+                  padding: const EdgeInsets.all(8),
+                  itemCount: classInstancee.selcectedprodict.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return Card(
+                      child: ListTile(
+                        title:
+                            Text(classInstancee.selcectedprodict[index].name),
+                        subtitle: Text(
+                            "${classInstancee.selcectedprodict[index].price} "),
+                        leading: CircleAvatar(
+                          backgroundImage: AssetImage(
+                              classInstancee.selcectedprodict[index].imgpath),
+                        ),
+                        trailing: IconButton(
+                            onPressed: () {
+                              classInstancee.delete(
+                                  classInstancee.selcectedprodict[index]);
+                            },
+                            icon: Icon(Icons.remove)),
+                      ),
+                    );
+                  }),
             ),
-            trailing: IconButton(onPressed:
-            (){
-              classInstancee.delete(classInstancee.selcectedprodict[index]);
-            },
-            icon: icon),
-              ),
-            );
-   }  ),
-        ),
-        ),
-        ),
-ElevatedButton(onPressed: (){},
-style: ButtonStyle(
-  backgroundColor: MaterialStateProperty.all(BTNpink),
-  padding: MaterialStateProperty.all(EdgeInsets.all(12)),
-  shape: MaterialStateProperty.all(RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(8)))
-  ),
-  child: Text(
-    "pay ${classInstancee.price}",
-    style: TextStyle(fontSize: 19),
-    ),
-),
-      ],
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(BTNpink),
+                padding: MaterialStateProperty.all(EdgeInsets.all(12)),
+                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8)))),
+            child: Text(
+              "pay ${classInstancee.price}",
+              style: TextStyle(fontSize: 19),
+            ),
+          ),
+        ],
       ),
     );
   }
