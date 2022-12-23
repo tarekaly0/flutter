@@ -25,7 +25,14 @@ class check extends StatelessWidget {
         itemCount: classInstancee.selcectedprodict.length,
         itemBuilder: (BuildContext (context, int index)
         {
-          return Card
+          return Card(
+            child: ListTile(
+            Text(classInstancee.selcectedprodict[index].name),
+           subtitle Text(
+            "$ {classInstancee.selcectedprodict[index].price} "),
+           ) :
+            )
+          )
         } ),
         ),
          ),)
