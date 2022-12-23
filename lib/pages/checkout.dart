@@ -44,6 +44,7 @@ class check extends StatelessWidget {
    }  ),
         ),
         ),
+        ),
 ElevatedButton(onPressed: (){},
 style: ButtonStyle(
   backgroundColor: MaterialStateProperty.all(BTNpink),
@@ -55,14 +56,9 @@ style: ButtonStyle(
     "pay ${classInstancee.price}",
     style: TextStyle(fontSize: 19),
     ),
-    
-
 ),
-)
-
-
-
-      ]),
-    )
+      ],
+      ),
+    );
   }
 }
