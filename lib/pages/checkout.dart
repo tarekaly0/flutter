@@ -37,18 +37,19 @@ class check extends StatelessWidget {
             trailing: IconButton(onPressed:
             (){
               classInstancee.delete(classInstancee.selcectedprodict[index]);
-
             },
-            
-            , icon: icon),
+            icon: icon),
               ),
-            ),
-           ) :
-            )
-          )
-        } ),
+            );
+   }  ),
         ),
-         ),)
+        ),
+ElevatedButton(onPressed: (){},
+style: ButtonStyle(),
+)
+
+
+
       ]),
     )
   }
