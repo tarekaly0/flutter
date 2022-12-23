@@ -18,6 +18,9 @@ class check extends StatelessWidget {
         title: Text("check out"),
         actions: [PROandPRI()],
       ),
+      body: Column(children: [
+        SingleChildScrollView(child: SizedBox(height: 600, ),)
+      ]),
     )
   }
 }
