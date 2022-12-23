@@ -1,5 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application/provider/provider.dart';
+import 'package:flutter_application/share/appbar.dart';
+import 'package:flutter_application/share/colors.dart';
 
 class check extends StatelessWidget {
   const check({super.key});
@@ -8,6 +12,12 @@ class check extends StatelessWidget {
   Widget build(BuildContext context) {
     final classInstancee = provider.of<Prov>(context);
 
-    re
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: appbarGreen,
+        title: Text("check out"),
+        actions: [PROandPRI()],
+      ),
+    )
   }
 }
