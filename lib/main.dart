@@ -5,6 +5,7 @@ import 'package:flutter_application/share/appbar.dart';
 import 'package:flutter_application/pages/home.dart';
 import 'package:flutter_application/pages/login.dart';
 import 'package:flutter_application/pages/register.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());

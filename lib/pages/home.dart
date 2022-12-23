@@ -7,6 +7,8 @@ import 'package:flutter_application/pages/detals_scren.dart';
 import 'package:flutter_application/share/appbar.dart';
 import 'package:flutter_application/share/colors.dart';
 import 'package:flutter_application/provider/provider.dart';
+import 'package:provider/provider.dart';
+
 
 class Home extends StatelessWidget {
   const Home({super.key});
