@@ -47,8 +47,7 @@ class Login extends StatelessWidget {
               ),
               child: Text(
                 "sgin in", 
-                style: Color
-                 TextStyle(fontSize: 19),
+                style: TextStyle(color: )
               ),
             ),
             const SizedBox(
