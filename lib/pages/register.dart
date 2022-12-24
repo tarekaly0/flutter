@@ -87,7 +87,7 @@ class Register extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Login()),
                 );
               },
-              child: Text("sgin in",
+              child: Text("sigin in ",
                   style: TextStyle(color: BTNgreen, fontSize: 20)),
             )
           ],
