@@ -46,8 +46,9 @@ class Login extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8))),
               ),
               child: Text(
-                "sgin in",
-                style: TextStyle(fontSize: 19),
+                "sgin in", 
+                style: Color
+                 TextStyle(fontSize: 19),
               ),
             ),
             const SizedBox(
