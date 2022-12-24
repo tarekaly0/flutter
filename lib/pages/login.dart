@@ -23,7 +23,10 @@ class Login extends StatelessWidget {
                 obscureText: false,
                 decoration: dico.copyWith(hintText: "Entar your email")),
             const SizedBox(
-              height: 30,
+              height: 15,
+            ),
+            const SizedBox(
+              height: 15,
             ),
             TextField(
                 keyboardType: TextInputType.text,
