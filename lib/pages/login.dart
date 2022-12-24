@@ -45,10 +45,9 @@ class Login extends StatelessWidget {
                 shape: MaterialStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8))),
               ),
-              child: Text(
-                "sgin in", 
-                style: TextStyle(color: Color.fromARGB(255, 255, 24, 24),fontSize: )
-              ),
+              child: Text("sgin in",
+                  style: TextStyle(
+                      color: Color.fromARGB(255, 255, 24, 24), fontSize: 16)),
             ),
             const SizedBox(
               height: 30,
