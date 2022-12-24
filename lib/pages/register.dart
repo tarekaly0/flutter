@@ -49,7 +49,10 @@ class Register extends StatelessWidget {
                   hintText: "Entar your password",
                 )),
             const SizedBox(
-              height: 30,
+              height: 15,
+            ),
+            const SizedBox(
+              height: 15,
             ),
             ElevatedButton(
               onPressed: () {},
