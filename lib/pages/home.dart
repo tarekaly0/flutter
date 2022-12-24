@@ -110,10 +110,9 @@ class Home extends StatelessWidget {
                     leading: Icon(Icons.exit_to_app),
                     onTap: () {}),
                 ListTile(
-                  title: Text("HI"),
-                  leading: Icon(Icons.expand),
-                  onTap: ,
-                ),
+                    title: Text("HI"),
+                    leading: Icon(Icons.expand),
+                    onTap: () {}),
               ],
             ),
             Container(
