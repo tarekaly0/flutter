@@ -109,7 +109,9 @@ class Home extends StatelessWidget {
                     title: Text("Logout"),
                     leading: Icon(Icons.exit_to_app),
                     onTap: () {}),
-                ListTile(),
+                ListTile(
+                  title: Text(),
+                ),
               ],
             ),
             Container(
