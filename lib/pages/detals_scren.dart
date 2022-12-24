@@ -89,7 +89,10 @@ class _DetailsState extends State<Details> {
                       SizedBox(
                         width: 3,
                       ),
-                      Text("TArek shop")
+                      Text(
+                        "TArek shop",
+                        style: TextStyle(fontSize: 12),
+                      )
                     ],
                   )
                 ],
